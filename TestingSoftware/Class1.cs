@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestingSoftware
 {
-  
         public float CalcPremium(int age, string gender)
         {
-            float premium;
+            double premium;
 
-            if (gender == “female”)
-	if ((age > = 18) && (age <= 30))
+            if (gender == "female")
+	if ((age >= 18) && (age <= 30))
                 premium = 5.0;
             else
         if (age >= 31)
@@ -20,8 +19,8 @@ namespace TestingSoftware
             else
                 premium = 0.0;
 else
-	if (gender == “male”)
-	    if ((age > = 18) && (age <= 35))
+	if (gender == "male")
+	    if ((age >= 18) && (age <= 35))
                 premium = 6.0;
             else
            if (age >= 36)
@@ -37,4 +36,4 @@ else
         }
 
     }
-}
+
