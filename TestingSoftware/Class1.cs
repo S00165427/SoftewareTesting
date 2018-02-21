@@ -8,5 +8,6 @@ namespace TestingSoftware
 {
     public class Class1
     {
+
     }
 }
